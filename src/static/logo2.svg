@@ -1,0 +1,24 @@
+var _defs, _polygon;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgLogo2({
+  title,
+  titleId,
+  ...props
+}, svgRef) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "uuid-e95467db-d741-447c-90f4-0044e69be7cb",
+    xmlns: "http://www.w3.org/2000/svg",
+    viewBox: "0 0 425 454",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("style", null, ".uuid-068c3a99-2296-488f-b488-48708416a048{fill:#fff;}"))), _polygon || (_polygon = /*#__PURE__*/React.createElement("polygon", {
+    className: "uuid-068c3a99-2296-488f-b488-48708416a048",
+    points: "368.53 72.03 294.05 72.03 192.45 72.03 202.97 140.56 259.92 140.56 183.99 293.04 175.15 293.04 143.33 72.03 69.07 72.03 115.92 381.44 217.58 381.44 374.06 72.03 368.53 72.03"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgLogo2);
+export default __webpack_public_path__ + "static/media/logo2.41d85d9486b9c08f31a97c39bc6d8891.svg";
+export { ForwardRef as ReactComponent };
